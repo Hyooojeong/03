@@ -5,13 +5,11 @@
 
 int main(void) {
 	char c;
-	int i;
-	
-	printf("input a number : ");
-	scanf("%c" , &c);
-	
-	i = c - '0';
-	printf("The input number is %i\n", i);
+
+	printf("enter a character : ");
+	scanf("%c", &c);
+
+	printf("the next chracter of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
 	
 	return 0;
 }
